@@ -7,6 +7,7 @@ ALLOWED_HOSTS = ['.pythonanywhere.com']
 
 DEBUG = False
 
+SECURE_SSL_REDIRECT = True
 
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
